@@ -237,6 +237,14 @@ form#aspnetForm[action='./advancedsearch.aspx?search=1&campaign=data-health-chec
 #content {
     padding: 52px 30px 60px;
 }
+
+.campaign {
+    width: 70%;
+    float: none!important;
+    margin: 0 auto;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 #job-dynamic-container #content {
     width: 100%;
 }

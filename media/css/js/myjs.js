@@ -31,6 +31,10 @@
         if(window.location.href.indexOf('https://www.pbtaustralia.com/advancedsearch.aspx?search=1&campaign=data-health-check') > -1){var job_number = $.trim($('.searchresult-number').text()); if(job_number == '0'){$('#jobsearch-top').hide(); $('.job-navbtns').hide();}
             else{$('#jobsearch-top').show(); $('.job-navbtns').show();}}
 
+            if(window.location.href.indexOf('https://www.pbtaustralia.com/advancedsearch.aspx?search=1&campaign') > -1){
+                $( "#content" ).addClass( "campaign" );                
+            }
+
         $('#myTab a[href="#tab1"]').tab('show');
         // bootstrap
         $('#dynamic-container, #content-container, #job-dynamic-container').addClass('row');
