@@ -1,0 +1,997 @@
+/* news page */
+
+.newsIndex br,
+.news-individual-container-header,
+.news-share-title,
+.news-social
+{
+    display: none;
+}
+.newsIndex .search-options
+{
+    float: right;
+    margin: -5em 0 1em 0;
+}
+.news-individual-container
+{
+    clear: both;
+    margin: 1em 0;
+    border-bottom: solid 1px grey;
+}
+.news-excerpt p a:last-child
+{
+    display: block;
+    margin: 1em 0;
+}
+
+
+/* end news page */
+
+/* search results */
+
+#jobsearch-top .num-results
+{
+    margin: 0 0 1em 0;
+}
+#jobsearch-top .searchresult-number
+{
+    font-weight: bold;
+}
+.job-navbtns .button
+{
+    float: left;
+    margin: 0 0.5em 1em 0;
+
+
+}
+.job-holder, .job-holder
+{
+    clear: both;
+
+    width: 100%;
+    padding: 1em;
+    margin: 0 0 1em 0;
+    border: solid 1px grey;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.job-holder:hover, .job-holder:hover
+{
+    background: aliceBlue;
+}
+.job-toplink
+{
+    float: left;
+    width: 70%;
+    padding: 0 5% 0 0;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.job-toplink a
+{
+    font-size: 18px;
+    text-decoration: none;
+}
+.job-toplink .nameofcompany
+{
+    display: block;
+
+    font-size: small;
+}
+.job-rightlinks
+{
+    float: right;
+    width: 30%;
+
+    font-size: small;
+    text-align: right;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.description-holder .locandsalary
+{
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.description-holder .locandsalary span
+{
+    display: block;
+}
+.description-holder
+{
+    clear: both;
+}
+.description-holder ul,
+.description-holder p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.job-breadcrumbs
+{
+    clear: both;
+
+    font-size: small;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* description style 1
+.job-toplink
+{
+    padding-left: 5%;
+}
+.description-holder
+{
+    padding: 1em 0;
+
+    overflow: hidden;
+}
+.description-holder .job-checkbox
+{
+    float: left;
+    width: 5%;
+}
+.description-holder .locandsalary
+{
+    float: left;
+    width: 30%;
+    padding: 0 5% 0 0;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.description-holder .description-text
+{
+    float: left;
+    width: 65%;
+}
+.job-breadcrumbs
+{
+    padding-left: 35%;
+}
+
+/* end description style 1 */
+
+/* description style 2 */
+
+.description-holder
+{
+    padding: 1em 0;
+
+    overflow: hidden;
+}
+.description-holder .job-checkbox
+{
+    float: right;
+    width: 15%;
+
+    text-align: right;
+}
+.description-holder .job-checkbox input[type-checkbox]
+{
+    max-width: 100%;
+}
+.description-holder .locandsalary
+{
+    float: left;
+    width: 35%;
+    padding: 0 5% 0 0;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.description-holder .description-text
+{
+    float: left;
+    width: 50%;
+}
+.description-holder .description-logo
+{
+    float: right;
+    width: 15%;
+}
+
+/* end description style 2 */
+
+#tnt_pagination a
+{
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    margin: 0 0.5em 0 0;
+    border: solid 1px grey;
+
+    font-size: small;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* end search results */
+
+/* view job page */
+
+.jobdetail-top .job-detailtop-title,
+#wrapper #job-ad-template
+{
+    /* job ad template/ breadcrumb */
+    float: left;
+    width: 65%;
+    margin: 0 0 1em 0;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* style 1 - normal */
+.jobdetail-top
+{
+    margin: 0 0 1em 0;
+        display: none;
+    overflow: hidden;
+}
+/* end style 1 - normal */
+
+/* style 2 - no breadcrumbs
+.jobdetail-top
+{
+    float: right;
+    width: 35%;
+    margin: 0 0 1em 0;
+}
+.jobdetail-top .job-detailtop-title
+{
+    display: none;
+}
+#jobdetail-left-bg .jobdetail-top .backtoresults
+{
+    float: none;
+    width: 100%;
+}
+
+/* end style 2 - no breadcrumbs */
+
+.jobdetail-top .backtoresults,
+.job-detail-centre,
+.jd-btm-description
+{
+    /* back to results / options list */
+    float: right;
+    width: 35%;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.jobdetail-top .backtoresults a
+{
+    width: 100%;
+
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.job-detail-centre .jobdetail-padding,
+.jobdetail-top .backtoresults
+{
+    padding-right: 0;
+}
+.job-detail-centre h2
+{
+    margin: 20px 0;
+
+    font: inherit;
+    font-weight: bold;
+}
+.job-detail-centre .jobdetail-options ul,
+.job-detail-centre .jobdetail-options li {
+    background: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.job-detail-centre .jobdetail-options li {
+    display: block;
+    padding: 0 0 0 3px;
+    margin: 0;
+}
+.job-detail-centre .jobdetail-options a {
+    color:#666;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    font-size: small;
+    line-height:26px;
+    padding: 0.5em 0 0.5em 2.7em;
+}
+
+.job-detail-centre a { position:relative;}
+
+.job-detail-centre a:before {
+    color:#333333;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size:20px;
+    left: 0;
+    position: absolute;
+    text-decoration: inherit;
+    text-indent: 0.5em;
+    top: 7px;
+}
+.job-detail-centre .save-image a:before {content: "\f0c7"; left:1px;}
+.job-detail-centre .print-image a:before {content: "\f02f";}
+.job-detail-centre .email-image a:before {content: "\f0e0";}
+.job-detail-centre .facebook-image a:before {content: "\f09a"; color:#395692; left:4px;}
+.job-detail-centre .twitter-image a:before {content: "\f099"; color:#3299D4;}
+.job-detail-centre .linked-in-image a:before {content: "\f0e1"; color:#085C88;}
+
+.jobdetail-options ul .googleplus-in-image,
+#jobdetail-social-media .googleplus-in-image
+{
+    background: transparent;
+}
+.job-detail-centre .googleplus-in-image a:before {content: ""; left: -8px; color:#D51B1C;}
+
+.jobdetail-padding,
+.backtoresults
+{
+    /* padding between options and template. eg: padding: 0 44px;*/
+    padding: 0 30px;
+}
+
+.jd-btm-description
+{
+    clear: both;
+    float: none;
+}
+.jd-btm-description .jobdetail-padding
+{
+    padding-left: 0;
+}
+
+.apply-now-link a
+{
+    display: block;
+    padding: 1em;
+
+    border-radius: 4px;
+    background: #2F3238;
+    text-align: center;
+}
+.apply-now-link a:hover,
+.apply-now-link a:active
+{
+    background: #009999;
+    color: #fff;
+}
+
+/* end view job page */
+
+/* my details */
+
+#ucmemberedit-date-of-birth .span-dash,
+#ucmemberedit-date-of-birth .form-sub-label
+{
+    display: none;
+}
+
+/* end my details */
+
+/* my saved jobs */
+
+#box-table
+{
+    clear: both;
+    max-width: 100%;
+    margin: 1em 0;
+
+    white-space: nowrap;
+}
+#box-table th
+{
+    padding: 0.5em;
+
+    color: Snow;
+    background: DimGrey;
+    font-weight: bold;
+}
+#box-table tr td
+{
+    padding: 0.5em;
+
+    background: Silver;
+}
+#box-table tr:nth-child(2) td
+{
+    background: LightGray;
+}
+
+    /* responsive tables */
+
+    .box-table-responsive
+    {
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin: 1em 0;
+
+        overflow-x: scroll;
+    }
+    .box-table-responsive #box-table tr td:first-child,
+    .box-table-responsive #box-table tr th:first-child
+    {
+
+    }
+
+    /* end responsive tables */
+
+
+/* end my saved jobs */
+
+
+/* advertiser default */
+
+#content ul.tabs
+{
+    display: none;
+}
+#content ul.tabs li
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    list-style: none;
+    background: transparent;
+}
+
+/* end advertiser default */
+
+/* generic styling for system */
+
+#ContentPlaceHolder1_pnlFullRegistration
+{
+    display: none;
+}
+
+.breadcrumbs,
+#jobBreadCrumb
+{
+    margin: 0 0 20px 0;
+}
+div#ctl00_ContentPlaceHolder1_pnlRequiredRegistration h3 {
+    margin-bottom: 30px;
+}
+.button a,
+.mini-new-buttons,
+.jobdetail-top .backtoresults a
+{
+    /* generic buttons */
+           display: inline-block;
+    padding: 12px 40px 12px;
+    border-radius: 0;
+    background: #009999;
+    color: white;
+    cursor: pointer;
+    margin: 15px 0;
+    font-size: 12px !important;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+/*    appearance: none;*/
+}
+.button:hover a,
+.mini-new-buttons:hover,
+.jobdetail-top .backtoresults a:hover
+{
+    color: #052539;
+    background: #009999;
+    -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
+}
+.button a
+{
+    padding: 10px 40px;
+}
+
+.side-left-header
+{
+    display: none;
+}
+.links-2 > ul,
+#side-drop-menu
+{
+    margin: 0;
+    list-style: none;
+}
+
+.links-2 ul ul,
+#side-drop-menu ul
+{
+    margin: 0;
+    list-style: none;
+}
+.links-2 li,
+#side-drop-menu li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    background: transparent;
+    list-style-image: none;
+}
+
+.links-2 > ul > li > a,
+#side-drop-menu > li > a
+{
+    /* headers */
+    display: block;
+    padding: 10px 0;
+    border-bottom: solid 1px #2F3238;
+
+    color: #009999;
+    cursor: pointer;
+    overflow: hidden;
+}
+.links-2 > ul > li > a:hover,
+#side-drop-menu > li > a:hover
+{
+    /* headers hover */
+    color: #2F3238;
+}
+.search-query > p,
+.links-2 > ul > li > ul > li > a,
+#side-drop-menu > li > ul > li > a
+{
+    /* children */
+    display: block;
+    padding: 10px 0 10px 20px;
+    margin: 0;
+    border-bottom: solid 1px #2F3238;
+
+    color: #009999;
+    word-wrap: break-word;
+    cursor: pointer;
+    overflow: hidden;
+}
+.search-query > p:hover,
+.links-2 > ul > li > ul > li > a:hover,
+.links-2 > ul > li > ul > li.active > a,
+#side-drop-menu > li > ul > li > a:hover,
+#side-drop-menu > li > ul > li.active > a
+{
+    /* children hover */
+    color: #2F3238;
+}
+.search-query
+{
+    /* search result filter box */
+    margin: 0 0 1em 0;
+}
+.search-query > h3
+{
+    display: none;
+}
+.red-remove
+{
+    float: right;
+
+    color: red;
+    font-size: small;
+}
+.red-remove a
+{
+    color: red;
+}
+.red-remove:hover,
+.red-remove:hover a
+{
+    color: red;
+}
+
+/* end generic styling for system */
+
+/* generic form resets */
+
+.form-all,
+.uniForm,
+#advanced_search-holder
+{
+    /*max-width: 30em;*/
+}
+
+.uniForm input, .form-all input,
+.uniForm select, .form-all select,
+.uniForm textarea, .form-all textarea,
+#advanced_search-holder input,
+#advanced_search-holder select
+{
+    margin-bottom: 1em;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.uniForm input, .form-all input,
+.uniForm select, .form-all select,
+.uniForm textarea, .form-all textarea,
+#advanced_search-holder input,
+#advanced_search-holder select{
+    height: auto;
+    padding: 17px 21px;
+    font-size: 13px;
+        border-radius: 0;
+    margin-bottom: 10px;
+}
+label em,
+.form-required
+{
+    padding: 0 0.5em;
+
+    color: red;
+}
+.uniForm ul,
+.uniForm li,
+.form-section,
+.form-section li
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+
+    background: transparent;
+    list-style: none;
+}
+.formHint
+{
+    margin: 0;
+}
+.formHint span
+{
+    margin: 0 0 1em 0;
+}
+
+.MemberFullRegisterHeader {
+    cursor: pointer;
+    border: 2px solid #009999;
+    padding: 5px 20px 7px;
+    width: fit-content;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.MemberFullRegisterHeader:hover {
+    color: #fff;
+    background: #009999;
+}
+
+    /* double column */
+
+    #search-salary ul li,
+    #search-salary #divSalaryFrom
+    {
+        float: left;
+        width: 45%;
+    }
+    #search-salary ul li:last-child,
+    #search-salary #divSalaryTo
+    {
+        float: right;
+        width: 45%;
+    }
+    #search-salary ul li:first-child
+    {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    #search-worktype
+    {
+        clear: both;
+    }
+    #divTo
+    {
+        float: left;
+        width: 9%;
+
+        text-align: center;
+    }
+    .search-button
+    {
+        clear: both;
+    }
+
+
+    /* double column */
+
+    /* triple column */
+
+    #ucmemberedit-date-of-birth .form-sub-label-container
+    {
+        float: left;
+        width: 30%;
+        padding-right: 5%;
+
+        text-indent: -5000em;
+    }
+    #ucmemberedit-date-of-birth .form-sub-label-container select
+    {
+        display: block;
+    }
+    #ucmemberedit-date-of-birth .form-sub-label-container:last-child
+    {
+        float: right;
+        padding-right: 0;
+    }
+
+    #jobs-salaryfromto-field .form-input
+    {
+        text-align: center;
+    }
+    #jobs-salaryfromto-field select
+    {
+        float: left;
+        width: 40%;
+    }
+    #jobs-salaryfromto-field select:last-child
+    {
+        float: right;
+        margin-right: 0;
+    }
+    #Li2
+    {
+        clear: both;
+    }
+    .form-input table
+    {
+        width: 100%;
+    }
+    .form-input table tr td
+    {
+        width: 50%;
+        padding-right: 1em;
+
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .form-input table tr td:last-child
+    {
+        padding-right: 0;
+        padding-left: 1em;
+    }
+    .cke
+    {
+        max-width: 100%;
+    }
+
+    /* end triple column */
+
+.form-buttons-wrapper,
+.member-submitbottom,
+.advertiser-searchbottom
+{
+    margin: 1em 0;
+}
+#Li1 .form-input,
+#ucmembersearchcriteria-avail-date .form-sub-label-container
+{
+    position: relative;
+}
+#Li1 input,
+#ucmembersearchcriteria-avail-date input:first-child
+{
+    padding-right: 8em;
+}
+#Li1 a,
+#ucmembersearchcriteria-avail-date #ctl00_ContentPlaceHolder1_ucMemberSearchCriteria1_ibFirstApprovedDate
+{
+    position: absolute;
+    top: 0;
+    right: 0.5em;
+}
+
+.form-error-message
+{
+    padding: 1em;
+    margin: 1em 0;
+
+    background: WhiteSmoke;
+    color: red;
+}
+.form-radio2 label,
+.form-radio label
+{
+    margin-right: 1em;
+}
+
+.box-table-responsive
+{
+    position: relative;
+    clear: both;
+    width: 100%;
+    margin: 1em 0;
+
+    overflow-x: scroll;
+}
+
+/* end generic form resets */
+
+.login-status hr,
+#wrapper #AdvancedSearchFilter_PnlCompany,
+#SiteSearch-language-field
+{
+    display: none;
+}
+
+
+/* breaks for tablets */
+@media screen and (max-width: 1023px)
+{
+    .breadcrumbs,
+    #tnt_pagination a,
+    .apply-now-image2
+    {
+        display: none;
+    }
+    #tnt_pagination .search-previous-button
+    {
+        display: inline-block;
+        float: left;
+        width: 40%;
+        margin: 0;
+    }
+    #tnt_pagination .search-next-button
+    {
+        display: inline-block;
+        float: right;
+        width: 40%;
+        margin-right: 0;
+    }
+
+    .job-toplink,
+    .job-breadcrumbs
+    {
+        width: 100%;
+        padding: 0;
+    }
+    .job-toplink a
+    {
+        display: block;
+        margin: 0 0 1em 0;
+    }
+    .job-rightlinks
+    {
+        float: none;
+        clear: both;
+        width: 100%;
+
+        text-align: left;
+    }
+    .job-rightlinks .search-result-save-job-link,
+    .job-rightlinks .search-result-links-separator,
+    .job-rightlinks .search-result-send-email-link,
+    .job-rightlinks br
+    {
+        display: none;
+    }
+    .description-holder .job-checkbox
+    {
+        width: 10%;
+    }
+    .description-holder .locandsalary
+    {
+        width: 90%;
+        margin: 0 0 1em 0;
+
+        font-size: small;
+        overflow: hidden;
+    }
+    .description-holder .locandsalary span
+    {
+        margin: 0;
+    }
+    .description-holder .description-text
+    {
+        width: 85%;
+    }
+
+    /* description style 2 */
+    .description-holder .job-checkbox
+    {
+        float: right;
+
+        text-align: right;
+    }
+    /* end description style 2 */
+
+    #wrapper #job-ad-template
+    {
+        width: 100%;
+    }
+    .job-detail-centre
+    {
+        clear: both;
+        float: none;
+        width: 100%;
+        padding: 1em 0;
+
+        overflow: hidden;
+    }
+    .job-detail-centre .jobdetail-padding
+    {
+        padding: 0;
+    }
+    .job-detail-centre .jobdetail-options h2
+    {
+        display: none;
+    }
+    .job-detail-centre .jobdetail-options ul
+    {
+        float: left;
+        width: 49%;
+        margin: 1em 0;
+
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .jobdetail-top .job-detailtop-title,
+    .jobdetail-top .backtoresults
+    {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .jobdetail-top .job-detailtop-title
+    {
+        margin-bottom: 1em;
+    }
+    .apply-now-link a
+    {
+        margin-bottom: 1em;
+    }
+    .job-detail-centre .jobdetail-options a
+    {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+/* breaks for phones */
+@media screen and (max-width: 767px)
+{
+    .job-navbtns .button,
+    .job-breadcrumbs,
+    .job-detail-centre .jobdetail-options .print-image,
+    .jobdetail-top .job-detailtop-title,
+    .description-holder .description-logo
+    {
+        display: none;
+    }
+    .job-detail-centre .jobdetail-options ul
+    {
+        float: none;
+        width: 100%;
+
+        overflow: hidden;
+    }
+
+    .job-detail-centre a::before
+    {
+        top: 13px;
+    }
+
+}
+

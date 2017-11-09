@@ -1,0 +1,86 @@
+div.selector, 
+div.selector span 
+{
+	background-image: url(http://images.jxt.net.au/responsive-11/images/select-background.png);
+	background-repeat: no-repeat;
+	-webkit-font-smoothing: antialiased;
+}
+
+.selector, 
+.selector *
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+div.selector {
+	width: 190px;
+	height: 26px;
+	
+	background-position: -483px -130px;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+div.selector span {
+	width: 158px;
+	height: 26px;
+	padding: 0px 25px 0px 2px;
+
+	background-position: right 0px;
+	line-height: 26px;
+	cursor: pointer;
+}
+
+div.selector select {
+	min-width: 190px;
+	top: 0px;
+	left: 0px;
+}
+
+div.selector:active, 
+div.selector.active {
+background-position: -483px -156px;
+}
+
+div.selector:active span, 
+div.selector.active span {
+background-position: right -26px;
+}
+
+div.selector.focus, div.selector.hover, div.selector:hover {
+background-position: -483px -182px;
+}
+
+div.selector.focus span, div.selector.hover span, div.selector:hover span {
+background-position: right -52px;
+}
+
+div.selector.focus:active,
+div.selector.focus.active,
+div.selector:hover:active,
+div.selector.active:hover {
+background-position: -483px -208px;
+}
+
+div.selector.focus:active span,
+div.selector:hover:active span,
+div.selector.active:hover span,
+div.selector.focus.active span {
+background-position: right -78px;
+}
+
+div.selector.disabled {
+background-position: -483px -234px;
+}
+
+div.selector.disabled span {
+background-position: right -104px;
+}
+
+
+div.selector.disabled span {
+
+}
+

@@ -1,0 +1,223 @@
+
+/* TAB BACKGROUND ----------------------------- */
+
+#wrapper{
+  background-color: #fff;
+}
+
+/* DEFAULT WIDGET STYLE ----------------------- */
+
+.ss_box{
+  background: #fff;
+  border:solid 1px #bbb; /* no border */
+  border-radius: 3px; /* rounded corners */
+}
+.ss_box .ss_box_header h3{
+  background:#fff;
+  color:#000;
+  border:none;
+  font-size:1.7em;
+}
+
+/* TEXT --------------------------------------- */
+
+/* font */
+#wrapper, p, .boxy-inner{
+  font-family: Georgia, Times, â€œTimes New Romanâ€, serif;
+  font-size: 13px;
+}
+
+/* default color */
+#wrapper, label, .boxy-inner{
+  color:#000;
+}
+
+/* links */
+a, 
+.tweet a{
+  color:#000;
+}
+
+/* less important text */
+.tweet .tweetDate,
+.rssEntry .author,
+.foursquareTip .author{
+  color:#666;
+}
+
+/* OTHER ELEMENTS ---------------------------- */
+
+/* Button styles */
+.ss_box .ss_btn,
+.ss_box .comment_link, 
+.ss_box .share_link, 
+.ss_box .form_submit{
+  background:#000; 
+  border:solid 1px #999; 
+  border-radius:3px;
+  color:#ccc;
+  font-weight:bold;
+  padding:5px 15px; 
+}
+/* hover */
+.ss_box .ss_btn:hover,
+.ss_box .comment_link:hover, 
+.ss_box .share_link:hover, 
+.ss_box .form_submit:hover{
+  border-color:#ccc;
+  color:#fff;
+}
+
+/* Gift widget */
+.ss_gift_thumbs a{
+  border:solid 2px #ebebeb;
+  border-radius:5px;
+}
+.ss_gift_thumbs a:hover{
+  border:solid 2px #000;
+}
+.ss_gift_thumbs img{
+  border-radius:3px;
+}
+
+/* Links widget */
+.ss_box.ss_links{
+  background:#000;
+  border-radius:0;
+}
+.ss_links li{
+  padding:0;
+}
+.ss_links a{
+  background: transparent;
+  border:solid 2px transparent;
+  color:#fff;
+  display:inline-block;
+  font-weight:normal;
+  padding:8px 10px;
+  text-decoration:none;
+}
+.ss_links a:hover{
+  background: #fff;
+  color:#000;
+  border-color:#000;
+}
+
+/* Foursquare */
+.mayor,
+.ss_foursquare .foursquareTip{
+  background:#ddd;
+}
+
+/* Poll widget */
+.ss_poll_graph_container{
+  border-color:#000;
+}
+.ss_poll_graph_percentage{
+  background-color:#000;
+}
+
+/* border color */
+.tweet,
+.rssEntry, 
+.yelpReview, 
+.foursquareTip, 
+.ss_product_content .widget_item{
+  border-color:#b3b3b3;
+}
+
+/* forms */
+.field_block label .required,
+.horizontal_container label .required {
+  color:#666;
+}
+
+/* TILER ------------------------------------ */
+
+.tiler_index a{
+  background-color:#fff;
+  border-radius:0;
+  border:solid 1px #000;
+  width:8px !important;
+  height:8px;
+}
+.tiler_index a.selected{
+  background-color:#333;
+}
+.tiler_btn{
+  background-color:transparent;
+  border:none;
+  border-radius:5px;
+  height:25px;
+  position:absolute;
+  top:10px;
+  width:25px;
+}
+.tiler_next{
+  background-image:url('https://d2xcq4qphg1ge9.cloudfront.net/stylesheet/images/btn-black-next.png');
+  right:-27px;
+}
+.tiler_prev{
+  background-image:url('https://d2xcq4qphg1ge9.cloudfront.net/stylesheet/images/btn-black-prev.png');
+  left:-27px;
+}
+
+/* OPTIONAL ----------------------------------
+   
+   Edit a widget, click the Options tab,
+   then add one or more of these to the
+   Extra CSS Classes field. Don't type
+   the period, just the class name.
+   For example: left
+   
+*/
+
+/* Extra CSS Class: left 
+   2-column, left */
+/* Extra CSS Class: left 
+   2-column, right */
+.left, .right{
+  width:48.4%;
+} 
+
+/* Extra CSS Class: show_title
+   Display widget title */
+.show_title
+.ss_box_header h3{
+  display:block;
+} 
+/* Extra CSS Class: hide_title
+   Hide widget title */
+.hide_title
+.ss_box_header h3{
+  display:none;
+}
+/* Extra CSS Class: cascade
+   Video thumbnails cascade down the tab */
+.cascade .ss_video_thumbs{
+  margin-left:0;
+  margin-right:0;
+  text-align:center;
+  white-space:normal;
+}
+.cascade .ss_video_thumbs a{
+  border:solid 2px #ebebeb;
+  border-radius:5px;
+  display:inline-block;
+  margin:10px;
+}
+.cascade .ss_video_thumbs a:hover{
+  border:solid 2px #000;
+}
+.cascade .ss_video_thumbs img{
+  border-radius:3px;
+  }
+/* Extra CSS Class: no_box
+   Shows content without box */
+.ss_box.no_box{
+  background:transparent;
+  padding:0;
+}
+.no_box .ss_box_content{
+  padding:0;
+}
